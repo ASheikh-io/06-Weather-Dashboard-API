@@ -32,8 +32,8 @@ $(Document).ready(function() {
         var newLocationDiv = $("<a>").addClass("collection-item").text(inputName);
         $(".collection").prepend(newLocationDiv);
   
-        titleEl.text(inputName); // displaying city name
-        dateEl.text(momentDate); // displaying date
+        titleEl.text(inputName); 
+        dateEl.text(momentDate); 
       });
     }
   
